@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+        <style>
+            iframe{
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Create User</h1><hr>
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>User Form</legend>
+                <label>Name</label>
+                <input type="text" name="username" placeholder="username" size="30" maxlength="12" required><br>
+                
+                <label>Select your favorite Superhero.</label><br>
+                <input type="radio" name="superheroes" value="Superman">Superman
+                <input type="radio" name="superheroes" value="Batman">Batman
+                <input type="radio" name="superheroes" value="Wonder Woman" checked> Wonder Woman
+                <input type="radio" name="superheroes" value="Flash">Flash
+                <input type="radio" name="superheroes" value="Thor & Hulk"> Thor & Hulk <br>
+
+                <label>Select your favorite Video Game</label><br>
+                <input type="checkbox" name="videogames" value="Fifa" checked> Fifa
+                <input type="checkbox" name="videogames" value="Resident Evil"> Resident Evil
+                <input type="checkbox" name="videogames" value="Uncharted"> Uncharted<br>
+
+                <label>Birthday</label>
+                <input type="date" name="birthday" required/><br>
+
+                <label>Email address</label>
+                <input type="email" name="email" required/><br>
+
+                <label>Enter Url site</label>
+                <input type="url" name="site">
+                <input type="hidden" name="userid" value="2300"> <br>
+                <input type="image" src="register_botton.png" width="100">
+            </fieldset> 
+        </form>
+        <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+            <legend>Google Search</legend>
+            <input type="search" id="search" name="query">
+            <input type="submit" name="search">
+            </fieldset>
+        </form>
+        <iframe src="index.html" height="500" width="1300" seamless frameborder="0"></iframe>
+    </body>
+</html>
