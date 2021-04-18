@@ -1,0 +1,18 @@
+/*Change the red main title 
+h1{
+    color:red;
+    {
+color to blue*/
+
+h1{
+    color:blue;
+}
+p{
+    color:gray;
+}
+a{
+    color:yellow;
+}
+#navlink{
+    color:pink;
+}
