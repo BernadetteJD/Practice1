@@ -1,0 +1,18 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+article{
+    border: 1px solid gray;
+}
+.hidden{
+    background-color: #ddd;
+}
+.remove{
+    background-color: #999;
+}
+h1{
+    /*visibility: hidden; */ 
+    display: none;
+}
+/* visibility hidden still have space
+display none takes away the space for h1
